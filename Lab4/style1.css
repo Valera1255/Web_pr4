@@ -1,0 +1,727 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Open Sans', sans-serif;
+}
+.Head{
+	height: 100vh;
+	width: 100%;
+	background: url(img/head.jpg);
+	margin: auto;
+	background-size: cover;
+}
+.Header{
+	display: flex;
+	height: 90px;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.3); /* Цвет фона и значение прозрачности */
+}
+.Logo{
+	display: flex;
+	flex-direction: row;
+	height: 150px;
+	width: 150px;
+	margin-top: -35px;
+	background: url(img/logo.png);
+}
+.Logo2{
+	display: flex;
+	flex-direction: row;
+	opacity: 0.2;
+	margin-top: 45px;
+	font-size: 15pt;
+	font-family:  'Open Sans', sans-serif;
+	color: white;
+}
+.Logo3{
+	display: flex;
+	flex-direction: row;
+	opacity: 0.2;
+	font-size: 12pt;
+	margin-top: 45px;
+	margin-left: 15px;
+	font-family: 'Open Sans', sans-serif;
+	color: white;
+}
+.Menu{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+}
+.Menu1{
+	margin-top: -45px;
+	margin-right: 50px;
+	margin-left: 5px;
+	font-size: 12pt;
+	color: white;
+}
+.Menu1:hover{
+	color: #0eb493;
+	height: 20px;
+	border-radius: 2px;
+}
+.Meet{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.Meetbrandi{
+	font-size: 50pt;
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 100;
+	margin-top:150px;
+}
+.template{
+	display: flex;
+	justify-content: center;
+	font-size: 25pt;
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 100;
+	margin-top: -50px;
+}
+.creative{
+	font-size: 25pt;
+	color: #0eb493;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 100;
+	margin-left: 15px;
+}
+.Brandi{
+	font-size: 50pt;
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+}
+.professionals{
+	display: flex;
+	justify-content: center;
+	font-size: 12pt;
+	color: white;
+	font-weight: 100;
+	font-family: 'Open Sans', sans-serif;
+}
+.Line{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+.line{
+	width: 25px;
+	height: 2px;
+	border-bottom: 2px solid #0eb493;
+	margin-right: 240px;
+	margin-top: -30px;
+}
+.line1{
+	width: 25px;
+	height: 2px;
+	border-bottom: 2px solid #0eb493;
+	margin-top: -30px;
+}
+.Social{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+.twitter{
+	height: 50px;
+	width: 50px;
+	background-color: white;
+	background: url(img/s1.png);
+	margin-top: 60px;
+}
+.facebook{
+	height: 50px;
+	width: 50px;
+	background: url(img/s2.png);
+	margin-top: 60px;
+}
+.google{
+	height: 50px;
+	width: 50px;
+	opacity: 0.3;
+	background: url(img/s3.png);
+	margin-top: 60px;
+}
+.else{
+	height: 50px;
+	width: 50px;
+	background: url(img/s4.png);
+	margin-top: 60px;
+}
+.twitter:hover{
+	opacity: 0.5;
+}
+.facebook:hover{
+	opacity: 0.5;
+}
+.google:hover{
+	opacity: 0.2;
+}
+.else:hover{
+	opacity: 0.5;
+}
+.Slides{
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+}
+.s1{
+	height: 10px;
+	width: 10px;
+	margin-top: -150px;
+	margin-right: 50px;
+	border-radius: 50px;
+	border: 1px solid white;
+}
+.s2{
+	height: 10px;
+	width: 10px;
+	margin-right: 50px;
+	margin-top: -40px;
+	border-radius: 50px;
+	border: 1px solid white;
+}
+.s3{
+	height: 10px;
+	width: 10px;
+	margin-right: 50px;
+	margin-top: -40px;
+	border-radius: 50px;
+	border: 1px solid white;
+}
+.s1:hover{
+	background: white;
+}
+.s2:hover{
+	background: white;
+}
+.s3:hover{
+	background: white;
+}
+.body1{
+	height: 90vh;
+	width: 100%;
+	background: #C0C0C0;
+	margin: auto;
+	background-size: cover;
+}
+.Features{
+	text-align: center;
+	margin-right: 10px;
+	color:#0eb493;
+	font-size: 20pt;
+	font-style: bold;
+	font-weight: 900;
+	padding-top: 60px;
+	font-family: 'Open Sans', sans-serif;
+}
+.Features1{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin-top: 20px;
+	justify-content:  space-evenly;
+}
+.card{
+	display: flex;
+}
+.icon{
+	height: 50px;
+	width: 50px;
+	background: url(img/fit1.png);
+}
+.icon2{ 	
+	height: 50px;
+	width: 50px;
+	background: url(img/fit2.png);
+}
+.icon3{
+	height: 50px;
+	width: 50px;
+	background: url(img/fit3.png);
+}
+.text{
+	font-size: 12pt;
+	font-family: 'Open Sans', sans-serif;
+	
+}
+.inform{
+	font-size: 9pt;
+	font-family: 'Open Sans', sans-serif;
+	height: 50px;
+	width: 200px;
+}
+.Info{
+	display: flex;
+	flex-direction: row;
+	justify-content:  space-evenly;
+}
+.Heart{
+	height: 100px;
+	width: 300px;
+	background: url(img/heart.png);
+	margin: auto;
+	margin-top: -50px;
+}
+.Slides2{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding-top: 50px;
+}
+.sl1{
+	height: 10px;
+	width: 10px;
+	border-radius: 50px;
+	margin-right: 20px;
+	border: 1px solid black;
+}
+.sl2{
+	height: 10px;
+	width: 10px;
+	border-radius: 50px;
+	border: 1px solid black;
+}
+.sl3{
+	height: 10px;
+	width: 10px;
+	border-radius: 50px;
+	border: 1px solid black;
+	margin-left: 20px;
+}
+.sl1:hover{
+	background-color: black
+}
+
+.sl2:hover{
+	background-color: black
+}
+.sl3:hover{
+	background-color: black
+}
+.body2{
+	height: 90vh;
+	width: 100%;
+	background: white;
+	margin-top: 150px;
+}
+.WORKS{
+	text-align: center;
+	color:#0eb493;
+	font-size: 20pt;
+	font-style: bold;
+	font-weight: 900px;
+	padding-top: 60px;
+	margin-right: 10px;
+	font-family: 'Open Sans', sans-serif;
+}
+.Work-text{
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	font-size: 10pt;
+	height: 100px;
+}
+.Menu2{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+.TextMenu{
+	text-align: center;
+	font-size: 8pt;
+	margin-right: 50px;
+	margin-top: -20px;
+	font-family: 'Open Sans', sans-serif;
+	border-radius: 5px;
+	height: 20px;
+	width: 70px;
+	padding: 5px 0px 3px;
+}
+.TextMenu:hover{
+	background-color: #0eb493;
+	color:white;
+}
+.Foto{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+.Fotox{
+	display:flex;
+	flex-direction: row;
+	justify-content: center;
+}
+.Foto1{
+	height: 200px;
+	width: 300px;
+	background: url(img/10.jpg);
+	background-size: cover;
+}
+.Foto2{
+	height: 200px;
+	width: 300px;
+	background: url(img/8.jpg);
+	background-size: cover;
+}
+.Foto3{
+	height: 200px;
+	width: 300px;
+	background: url(img/7.jpg);
+	background-size: cover;
+}
+.Foto4{
+	height: 200px;
+	width: 300px;
+	background: url(img/6.jpg);
+	background-size: cover;
+}
+.Foto5{
+	height: 200px;
+	width: 300px;
+	background: url(img/5.jpg);
+	background-size: cover;
+}
+.Foto6{
+	height: 200px;
+	width: 300px;
+	background: url(img/4.jpg);
+	background-size: cover;
+}
+.Foto7{
+	height: 200px;
+	width: 300px;
+	background: url(img/3.jpg);
+	background-size: cover;
+}
+.Foto8{
+	height: 200px;
+	width: 300px;
+	background: url(img/2.jpg);
+	background-size: cover;
+}
+.Foto1:hover{
+	background: url(img/hover.png); 
+}
+.Foto2:hover{
+	background: url(img/hover.png); 
+}
+.Foto3:hover{
+	background: url(img/hover.png); 
+}
+.Foto4:hover{
+	background: url(img/hover.png); 
+}
+.Foto5:hover{
+	background: url(img/hover.png); 
+}
+.Foto6:hover{
+	background: url(img/hover.png); 
+}
+.Foto7:hover{
+	background: url(img/hover.png); 
+}
+.Foto8:hover{
+	background: url(img/hover.png); 
+}
+.body3{
+	height: 90vh;
+	width: 100%;
+	background: white;
+}
+.Menu3{
+	display:flex;
+	flex-direction: row;
+	justify-content: center;
+}
+.Foto9{
+	height: 300px;
+	width: 250px;
+	background: url(img/154.jpg);
+	background-size: cover;
+	margin:auto;
+}
+.Foto10{
+	height: 300px;
+	width: 250px;
+	background: url(img/153.jpg);
+	background-size: cover;
+	margin:auto;
+}
+.Foto11{
+	height: 300px;
+	width: 250px;
+	background: url(img/152.jpg);
+	background-size: cover;
+	margin:auto;
+}
+.Foto12{
+	height: 300px;
+	width: 250px;
+	background: url(img/151.jpg);
+	background-size: cover;
+	margin:auto;
+}
+.Team-text{
+	display:flex;
+}
+.Team-text1{
+	font-size: 11pt;
+	font-style: bold;
+	margin: auto;
+	padding-top: 25px;
+}
+.Team-text2{
+	font-size: 8pt;
+	font-weight: 100;
+	margin: auto;
+	padding-top: 10px;
+}
+.Foto9:hover{
+	background: url(img/hover2.png); 
+}
+.Foto10:hover{
+	background:url(img/hover2.png);
+}
+.Foto11:hover{
+	background:url(img/hover2.png);
+}
+.Foto12:hover{
+	background:url(img/hover2.png);
+}
+.body4{
+	height: 90vh;
+	width: 100%;
+	background: url(img/300.jpg);
+	background-size: cover;
+}
+.Heart2{
+	height: 100px;
+	width: 300px;
+	background: url(img/hear2.png);
+	margin: auto;
+	margin-top: -50px;
+}
+.Icons{
+	display: flex;
+	justify-content: space-between;
+	width: 70%;
+	margin-left: 230px;
+	margin-top: 100px;
+}
+.Icon1{
+	height: 150px;
+	width: 150px;
+	background: url(img/1i.png);
+	background-size: cover;
+	margin: auto;
+}
+.Icon2{
+	height: 150px;
+	width: 150px;
+	background: url(img/2i.png);
+	background-size: cover;
+	margin: auto;
+}
+.Icon3{
+	height: 150px;
+	width: 150px;
+	background: url(img/3i.png);
+	background-size: cover;
+	margin: auto;
+}
+.Icon4{
+	height: 150px;
+	width: 150px;
+	background: url(img/4i.png);
+	background-size: cover;
+	margin: auto;
+}
+.IconText{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.IconText1{
+	text-align: center;
+	font-size: 30pt;
+	font-style: bold;
+	color: white;
+	margin: auto;
+}
+.IconText2{
+	text-align: center;
+	font-size: 15pt;
+	font-weight: normal;
+	color: white;
+	margin: auto;
+}
+.body5{
+	height: 90vh;
+	width: 100%;
+	background: white;
+	background-size: cover;
+}
+.DISCUSSText1{
+	width: 250px;
+	font-size: 15pt;
+	font-style: bold;
+	margin-left: 200px;
+	margin-top: -43px;
+}
+.DISCUSSText2{
+	font-size: 10pt;
+	font-weight: normal;
+	margin-left: 200px;
+}
+.Hello{
+	font-size: 15pt;
+	font-style: bold;
+	font-weight: 900;
+	margin-left: 500px;
+}
+.Social2{
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+	margin-left: 700px;
+	margin-top: -200px;	
+}
+.Twitter{
+	height: 50px;
+	width: 50px;
+	background: url(img/twitter.png);
+}
+.behance{
+	height: 50px;
+	width: 50px;
+	background: url(img/behance.png);
+}
+.drebble{
+	height: 50px;
+	width: 50px;
+	background: url(img/drebble.png);
+}
+.Facebook{
+	height: 50px;
+	width: 50px;
+	background: url(img/facebook.png);
+}
+.Forrst{
+	height: 50px;
+	width: 50px;
+	background: url(img/forrst.png);
+}
+.SendMessege{
+	display:flex;
+	flex-direction: row;
+	justify-content: center;
+	margin-left: 200px;
+}
+.Messege{
+	height: 50px;
+	width: 50px;
+	background: url(img/sendmess.png);	
+}
+.Messege2{
+	font-size: 10pt;
+	margin-top: 18px;
+}
+.Position{
+	margin-left: 30%;
+	margin-top: -13%;
+}
+.Messege:hover{
+	opacity: 0.5;
+}
+.Twitter:hover{
+	opacity: 0.5;
+}
+.behance:hover{
+	opacity: 0.5;
+}
+.drebble:hover{
+	opacity: 0.5;
+}
+.Facebook:hover{
+	opacity: 0.5;
+}
+.Forrst:hover{
+	opacity: 0.5;
+}
+.body6{
+	height: 25vh;
+	width: 100%;
+	background: url(img/map.jpg);
+}
+.body7{
+	height: 60vh;
+	width: 100%;
+	background: #0eb493;
+	border-top: 3px solid black;
+}
+.BRANDI{
+	height: 150px;
+	width: 150px;
+	margin-top: 50px;
+	margin-left: 100px;
+	background: url(img/logo.png);
+}
+.search{
+	display: flex;
+	width: 270px;
+}
+.search1{
+	color: #fff;
+	font-size: 28px;
+	height: 35px;
+	width: 300px;
+	border: 3px solid #fff;
+	border-bottom-left-radius: 5px;
+	border-top-left-radius: 5px;
+	border-right: none;
+	background: none;
+	outline: none;
+	margin-left: 500px;
+	margin-top: 40px;
+}
+.search2{
+	border-bottom-right-radius: 5px;
+	border-top-right-radius: 5px;
+	height: 37px;
+	width: 50px;
+	border: 3px solid #fff;
+	border-left: none;
+	margin-top: 40px;
+}
+.fext3{
+	width: 20%;
+	margin-top: 5%;
+	margin-left: 55%;
+	display: flex;
+	flex-direction: column;
+}
+.fext3_grid button{
+	margin: 0px 0px 7px 0px ;
+	color: #fff;
+	border: none;
+	font-size: 13px;
+	background: #1ea78d;
+	text-align: left;
+}
+.fext3_grid button:hover{
+	background: #fff;
+	color: #1ea78d;
+	height: 16px;
+	width: 100%;
+	border-radius: 5px;
+}
+.fext3_grid{
+	display: grid;
+	grid-template-columns: 125px 125px;
+}
